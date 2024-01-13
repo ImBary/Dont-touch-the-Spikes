@@ -32,11 +32,11 @@ func game() {
 	}
 
 	//ladowanie obrazkow
-	img2 := modul.OpeningFile("birdleft.png")
-	img := modul.OpeningFile("BirdUp.png")
-	img3 := modul.OpeningFile("bubbles.png")
-	img4 := modul.OpeningFile("goralewo.png")
-	img5 := modul.OpeningFile("goraprawo.png")
+	img2 := modul.OpeningFile("obrazki/birdleft.png")
+	img := modul.OpeningFile("obrazki/BirdUp.png")
+	img3 := modul.OpeningFile("obrazki/bubbles.png")
+	img4 := modul.OpeningFile("obrazki/goralewo.png")
+	img5 := modul.OpeningFile("obrazki/goraprawo.png")
 
 	// obrazki zrobione
 	bird := modul.FileInit(img)
